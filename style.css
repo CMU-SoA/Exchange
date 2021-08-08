@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 1.5em;
+    background: url("bkgd.svg") no-repeat;
+    background-size: cover
+}
+
+p {
+    margin: 0;
+}
+
+#title {
+    font-family: "Sigmar One";
+    font-size: 3em;
+    letter-spacing: .2rem;
+    margin: 10vh;
+    margin-top: 20vh;
+}
+
+.unitContainer {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    width: 60%;
+}
+
+.unit {
+    padding: 10px;
+    margin: auto;
+}
+
+#countdownDays, #countdownHours, #countdownMin, #countdownSec {
+    font-family: "Sigmar One";
+    font-size: 3em;
+    margin: 0;
+}
