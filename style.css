@@ -1,8 +1,11 @@
 body {
     text-align: center;
+    display: flex;
+    flex-direction: column;
     font-family: "Raleway";
     font-size: 1.5em;
-    background: url("bkgd.svg") no-repeat;
+    padding: 0;
+    background: url("bkgd.svg") no-repeat center center fixed;
     background-size: cover
 }
 
@@ -20,14 +23,15 @@ p {
 
 .unitContainer {
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     flex-direction: row;
-    width: 60%;
 }
 
 .unit {
     padding: 10px;
-    margin: auto;
+    margin: 30px;
+    width: 10vw;
 }
 
 #countdownDays, #countdownHours, #countdownMin, #countdownSec {
