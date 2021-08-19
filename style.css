@@ -2,11 +2,16 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-family: "Raleway";
+    font-family: "SoLowRegular";
     font-size: 1.5em;
     padding: 0;
     background: url("bkgd.svg") no-repeat center center fixed;
     background-size: cover
+}
+
+@font-face {
+    font-family: "SoLowRegular";
+    src: url("./SoLowRegular-Desktop.otf") format("opentype");
 }
 
 p {
@@ -14,7 +19,8 @@ p {
 }
 
 #title {
-    font-family: "Sigmar One";
+    font-family: "SoLowRegular";
+    font-weight: bold;
     font-size: 3em;
     letter-spacing: .2rem;
     margin: 10vh;
@@ -35,7 +41,7 @@ p {
 }
 
 #countdownDays, #countdownHours, #countdownMin, #countdownSec {
-    font-family: "Sigmar One";
+    font-family: "SoLowRegular";
     font-size: 3em;
     margin: 0;
 }
