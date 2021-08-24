@@ -67,7 +67,21 @@ a:visited {
 }
 
 .info {
-    margin: 12vw;
+    margin: 18vw;
+    margin-top: 0;
+    margin-bottom: 6vh;
+}
+
+.events {
+    margin: 18vw;
     margin-top: 0;
     margin-bottom: 5vh;
+    text-align: center;
+}
+
+
+ul {
+    width: 50vw;
+    text-align: left;
+    display: inline-block;
 }
