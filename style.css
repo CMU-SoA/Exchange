@@ -79,9 +79,21 @@ a:visited {
     text-align: center;
 }
 
-
 ul {
     width: 50vw;
     text-align: left;
     display: inline-block;
+}
+
+.sponsors {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
