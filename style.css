@@ -5,20 +5,27 @@ body {
     font-family: "SoLowRegular";
     font-size: 1.5em;
     padding: 0;
-    background: url("rocks-b.jpg") no-repeat center center fixed;
-    /* background-color: rgba(255,255,255,0.3);
-    background-blend-mode: lighten; */
+    background: url("src/bkgd.jpg") no-repeat center center fixed;
     background-size: cover;
     
 }
 
 @font-face {
     font-family: "SoLowRegular";
-    src: url("./SoLowRegular-Desktop.otf") format("opentype");
+    src: url("src/SoLowRegular-Desktop.otf") format("opentype");
 }
 
 p {
     margin: 0;
+}
+
+#navbar {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.nav {
+    margin: 2vw;
 }
 
 a:link {
@@ -37,12 +44,27 @@ a:visited {
     margin-bottom: 6vh;
 }
 
-#title {
+#title1 {
     font-family: "SoLowRegular";
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3.5em;
     letter-spacing: .2rem;
-    margin-top: 5vh;
+}
+
+#launchText {
+    font-family: "SoLowRegular";
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: .1rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#title2 {
+    font-family: "SoLowRegular";
+    font-weight: bold;
+    font-size: 2.5em;
+    letter-spacing: .3rem;
     margin-bottom: 2vh;
 }
 
@@ -56,6 +78,7 @@ a:visited {
 .unit {
     margin: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 10vw;
     height: 150px;
 }
@@ -79,10 +102,23 @@ a:visited {
     text-align: center;
 }
 
+.committee {
+    margin: 15vw;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
 ul {
+    margin-top: 0;
     width: 50vw;
     text-align: left;
     display: inline-block;
+}
+
+li {
+    width: 45vw;
 }
 
 .sponsors {
@@ -96,4 +132,8 @@ img {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+iframe {
+    align-self: center;
 }
