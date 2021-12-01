@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EX-CHANGE 2022</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <p id="title2">Collecting Work</p>
+
+    <div class="info">
+        <p>Submit Student Work: Please collect your students’ work from the semester to a CMU-hosted Google Drive or Box folder. I’d encourage you to require students to submit their own work in order to receive their grade. Please request students to save their work as a PDF portfolio @ 300dpi flattened pdf file along with high resolution files of final projects (JPG/ PNG formats @ 300dpi would be most preferred). Links to Miro Boards are acceptable as long as they are well labeled by student (where appropriate) and the content is downloadable.  </p>
+        <br>
+        <p>Share the Link to Your Folder or Miro Board: Please save a link to the folder or Miro Board with your course’s portfolios to this spreadsheet.</p>
+        <br>
+        <p>Check Your Course Synopsis: Please double-check the brief synopsis for your class in the spreadsheet and ensure it is accurate as it currently appears on the SoA website; edit as you see fit. </p>
+        <br>
+        <p>Select Student Ambassadors: Please nominate 2-3 students from your class/studio who can serve as ambassadors for the course. We may be in touch with them shortly to document your course’s work on the school’s social media, and they will be points of contact for helping ensure models and other work is submitted properly.</p>
+        <br>
+        <p>Save Models: Collect models from your fall classes that we’ll be photograph over winter break. There will be space designated to store these models in Margaret Morrison and CFA following final reviews.</p>
+        <br>
+    </div>
+</body>
+
+</html>
